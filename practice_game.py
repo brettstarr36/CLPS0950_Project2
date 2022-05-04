@@ -7,4 +7,4 @@ if intro_1 == "1": # confirm engagement
     print("corresponding to the squares in the image")
     print("You will be asked to type the number")
     print("corresponding to the square that is a different hue") # displays instructions to participant
-    intro_2 = input("enter 1 to continue")
+    intro_2 = input("enter 1 to continue")# engagement to trigger directions
