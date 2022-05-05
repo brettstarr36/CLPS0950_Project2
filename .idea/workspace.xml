@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79578171-dd8a-4930-afa3-973d6b829cd0" name="Changes" comment="practice while loop swtiching from the if looping if it is correct rather than the else looping if it is correct. 1.5 hours with group.">
-      <change afterPath="$PROJECT_DIR$/trying_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CLPS0950_Project2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CLPS0950_Project2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="79578171-dd8a-4930-afa3-973d6b829cd0" name="Changes" comment="trying_game, attempting to get the game to loop and keep score while generating the for loop. not successful so far, 2 hours">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice_while.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trying_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/trying_game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651610802347</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="trying_game, attempting to get the game to loop and keep score while generating the for loop. not successful so far, 2 hours">
+      <created>1651773246516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651773246516</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +275,7 @@
     <MESSAGE value="practice gameplay converting some of the gameplay" />
     <MESSAGE value="create practice_display.py" />
     <MESSAGE value="Brett 3-5 pm 5/3/22: added clicking capability" />
-    <option name="LAST_COMMIT_MESSAGE" value="Brett 3-5 pm 5/3/22: added clicking capability" />
+    <MESSAGE value="trying_game, attempting to get the game to loop and keep score while generating the for loop. not successful so far, 2 hours" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying_game, attempting to get the game to loop and keep score while generating the for loop. not successful so far, 2 hours" />
   </component>
 </project>
