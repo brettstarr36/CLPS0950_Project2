@@ -1,4 +1,4 @@
-import time
+
 score = 0
 while True:
     answer = input("Answer: ")
