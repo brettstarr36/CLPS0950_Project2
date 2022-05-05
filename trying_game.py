@@ -2,6 +2,7 @@ import pygame
 import random
 pygame.init()
 score = 0
+N = 50
 print("Welcome to the Color Visual Acuity Game!")  # welcoming message
 intro_1 = input("enter 1 to continue") # engagement to trigger directions
 if intro_1 == "1": # confirm engagement
@@ -50,24 +51,25 @@ if intro_2 == "1":# confirmation of part 1 of directions triggers part two of di
                 pygame.quit()
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 pos = pygame.mouse.get_pos()
-                if b.collidepoint(pos): #If they click the right button
+                if b.collidepoint(pos):#If they click the right button
+                    N -=10
                     score += 1
                     R_value = random.randint(0, 255)
                     G_value = random.randint(0, 255)
                     B_value = random.randint(0, 255)
                     base_color = (R_value, G_value, B_value)
                     if R_value > 205:
-                        R_val_alt = R_value - 50
+                        R_val_alt = R_value - N
                     else:
-                        R_val_alt = R_value + 50
+                        R_val_alt = R_value + N
                     if G_value > 205:
-                        G_val_alt = G_value - 50
+                        G_val_alt = G_value - N
                     else:
-                        G_val_alt = G_value + 50
+                        G_val_alt = G_value + N
                     if B_value > 205:
-                        B_val_alt = B_value - 50
+                        B_val_alt = B_value - N
                     else:
-                        B_val_alt = B_value + 50
+                        B_val_alt = B_value + N
                     alt_color = (R_val_alt, G_val_alt, B_val_alt)
 
                     for n in range(0, 6):
@@ -83,6 +85,7 @@ if intro_2 == "1":# confirmation of part 1 of directions triggers part two of di
                     b = background.blit(button,
                                         (((100 * j_cord) + 10 * (j_cord + 1)), ((100 * n_cord) + 10 * (n_cord + 1))))
                     pygame.display.flip()
+
                 else: #if they click the wrong button
                     pygame.quit()
                     print('Your score was', score)

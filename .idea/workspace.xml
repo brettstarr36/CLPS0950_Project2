@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79578171-dd8a-4930-afa3-973d6b829cd0" name="Changes" comment="trying_game, attempting to get the game to loop and keep score while generating the for loop. not successful so far, 2 hours">
+    <list default="true" id="79578171-dd8a-4930-afa3-973d6b829cd0" name="Changes" comment="put in some of the instructions to the begging of the making loop. 10 minutes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trying_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/trying_game.py" afterDir="false" />
     </list>
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651773246516</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="put in some of the instructions to the begging of the making loop. 10 minutes">
+      <created>1651776351850</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651776351850</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +283,7 @@
     <MESSAGE value="create practice_display.py" />
     <MESSAGE value="Brett 3-5 pm 5/3/22: added clicking capability" />
     <MESSAGE value="trying_game, attempting to get the game to loop and keep score while generating the for loop. not successful so far, 2 hours" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying_game, attempting to get the game to loop and keep score while generating the for loop. not successful so far, 2 hours" />
+    <MESSAGE value="put in some of the instructions to the begging of the making loop. 10 minutes" />
+    <option name="LAST_COMMIT_MESSAGE" value="put in some of the instructions to the begging of the making loop. 10 minutes" />
   </component>
 </project>
