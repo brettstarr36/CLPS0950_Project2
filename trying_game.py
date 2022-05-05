@@ -52,7 +52,7 @@ if intro_2 == "1":# confirmation of part 1 of directions triggers part two of di
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                 pos = pygame.mouse.get_pos()
                 if b.collidepoint(pos):#If they click the right button
-                    N -=10
+                    N = N/1.1
                     score += 1
                     R_value = random.randint(0, 255)
                     G_value = random.randint(0, 255)
