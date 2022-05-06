@@ -9,9 +9,9 @@ if intro_1 == "1": # confirm engagement
     print("Directions: You will be shown an image with a grid where")
     print("all the colors are of the same hue except one square") # displays instructions to participant
     print("you will click on the square of the different hue")
-    intro_2 = input ("enter 1 to begin"); #  engagement to confirm understanding of part 1 of directions
+    intro_2 = input ("enter 1 to begin") #  engagement to confirm understanding of part 1 of directions
 else:
-    disp('End game') #ends game if they do not want to enter 1 to play
+    Print("End game") #ends game if they do not want to enter 1 to play
     pygame.quit() # end script if they do not enter '1' to continue
 if intro_2 == "1":# confirmation of part 1 of directions triggers part two of directions
     background = pygame.display.set_mode((670, 670))
