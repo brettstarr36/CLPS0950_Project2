@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79578171-dd8a-4930-afa3-973d6b829cd0" name="Changes" comment="have difficulty increase. 10 minutes">
+    <list default="true" id="79578171-dd8a-4930-afa3-973d6b829cd0" name="Changes" comment="adjusting some errors, jonny 10 minutes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trying_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/trying_game.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651777251806</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adjusting some errors, jonny 10 minutes">
+      <created>1651864477652</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651864477652</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +306,7 @@
     <MESSAGE value="trying_game, attempting to get the game to loop and keep score while generating the for loop. not successful so far, 2 hours" />
     <MESSAGE value="put in some of the instructions to the begging of the making loop. 10 minutes" />
     <MESSAGE value="have difficulty increase. 10 minutes" />
-    <option name="LAST_COMMIT_MESSAGE" value="have difficulty increase. 10 minutes" />
+    <MESSAGE value="adjusting some errors, jonny 10 minutes" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusting some errors, jonny 10 minutes" />
   </component>
 </project>

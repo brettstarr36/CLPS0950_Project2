@@ -3,15 +3,20 @@ import random
 pygame.init()
 score = 0
 N = 50
-print("Welcome to the Color Visual Acuity Game!")  # welcoming message
-intro_1 = input("enter 1 to continue") # engagement to trigger directions
+print("Welcome to the Color Visual Acuity Game!")# welcoming message
+print("Enter your name:")
+name_input = input()
+print ("enter 1 to continue") # engagement to trigger directions
+intro_1 = input()
 if intro_1 == "1": # confirm engagement
     print("Directions: You will be shown an image with a grid where")
     print("all the colors are of the same hue except one square") # displays instructions to participant
     print("you will click on the square of the different hue")
-    intro_2 = input ("enter 1 to begin") #  engagement to confirm understanding of part 1 of directions
+    print("enter 1 to begin")
+    intro_2 = input() #  engagement to confirm understanding of part 1 of directions
 else:
-    Print("End game") #ends game if they do not want to enter 1 to play
+    print("Game over", name_input)#ends game if they do not want to enter 1 to play
+    print("I guess you did not want to play")
     pygame.quit() # end script if they do not enter '1' to continue
 if intro_2 == "1":# confirmation of part 1 of directions triggers part two of directions
     background = pygame.display.set_mode((670, 670))
@@ -87,5 +92,36 @@ if intro_2 == "1":# confirmation of part 1 of directions triggers part two of di
                     pygame.display.flip()
 
                 else: #if they click the wrong button
-                    pygame.quit()
-                    print('Your score was', score)
+                    if score < 5:
+                        pygame.quit()
+                        print("Your score was:", + score)
+                        print("Come on", name_input)
+                        print("that was pretty terrible")
+                    elif score > 5 and score <= 10:
+                        pygame.quit()
+                        print("Your score was:", + score)
+                        print("eh... that was pretty average", name_input)
+                    elif score > 10 and score <=15:
+                        pygame.quit()
+                        print("Your score was:", + score)
+                        print("Okay that not too shabby", name_input)
+                    elif score > 15 and score <=20:
+                        pygame.quit()
+                        print("Your score was:", + score)
+                        print("wow okay pretty good", name_input)
+                    elif score > 20 and score <=25:
+                        pygame.quit()
+                        print("Your score was:", + score)
+                        print("wow okay okay I'm impressed", name_input)
+                    elif score > 25:
+                        pygame.quit()
+                        print("Your score was:", + score)
+                        print("okay you're too good at this, get a hobby", name_input)
+                    else:
+                        pygame.quit()
+                        print("Your score was:", + score)
+                        print("you suck", name_input)
+else:
+    pygame.quit()
+    print("Game over", name_input)  # ends game if they do not want to enter 1 to play
+    print("I guess you did not want to play")
