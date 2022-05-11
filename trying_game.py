@@ -1,5 +1,6 @@
 import pygame
 import random
+import time
 pygame.init()
 score = 0
 N = 50
@@ -46,6 +47,46 @@ if intro_1 == "1": # confirm engagement
         pygame.display.flip()
         running = True
         while running:
+
+            t = 30
+            while t:
+                mins = t // 60
+                secs = t % 60
+                timer = '{:02d}:{:02d}'.format(mins, secs)
+                print(secs)
+                print(timer, end="\r")
+                time.sleep(1)
+                t -= 1
+            if score < 5 and score > 1:
+                pygame.quit()
+                print("Your score was:", + score)
+                print("Come on", name_input)
+                print("that was pretty terrible")
+            elif score > 5 and score <= 10:
+                pygame.quit()
+                print("Your score was:", + score)
+                print("eh... that was pretty average", name_input)
+            elif score > 10 and score <= 15:
+                pygame.quit()
+                print("Your score was:", + score)
+                print("Okay that not too shabby", name_input)
+            elif score > 15 and score <= 20:
+                pygame.quit()
+                print("Your score was:", + score)
+                print("wow okay pretty good", name_input)
+            elif score > 20 and score <= 25:
+                pygame.quit()
+                print("Your score was:", + score)
+                print("wow okay okay I'm impressed", name_input)
+            elif score > 25:
+                pygame.quit()
+                print("Your score was:", + score)
+                print("okay you're too good at this, get a hobby", name_input)
+            else:
+                pygame.quit()
+                print("Your score was:", + score)
+                print("you're really bad", name_input)
+
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     running = False
@@ -54,6 +95,44 @@ if intro_1 == "1": # confirm engagement
                 if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
                     pos = pygame.mouse.get_pos()
                     if b.collidepoint(pos):  # If they click the right button
+                        t = 30
+                        while t:
+                            mins = t // 60
+                            secs = t % 60
+                            timer = '{:02d}:{:02d}'.format(mins, secs)
+                            print(secs)
+                            print(timer, end="\r")
+                            time.sleep(1)
+                            t -= 1
+                        if score < 5 and score > 1:
+                            pygame.quit()
+                            print("Your score was:", + score)
+                            print("Come on", name_input)
+                            print("that was pretty terrible")
+                        elif score > 5 and score <= 10:
+                            pygame.quit()
+                            print("Your score was:", + score)
+                            print("eh... that was pretty average", name_input)
+                        elif score > 10 and score <= 15:
+                            pygame.quit()
+                            print("Your score was:", + score)
+                            print("Okay that not too shabby", name_input)
+                        elif score > 15 and score <= 20:
+                            pygame.quit()
+                            print("Your score was:", + score)
+                            print("wow okay pretty good", name_input)
+                        elif score > 20 and score <= 25:
+                            pygame.quit()
+                            print("Your score was:", + score)
+                            print("wow okay okay I'm impressed", name_input)
+                        elif score > 25:
+                            pygame.quit()
+                            print("Your score was:", + score)
+                            print("okay you're too good at this, get a hobby", name_input)
+                        else:
+                            pygame.quit()
+                            print("Your score was:", + score)
+                            print("you're really bad", name_input)
                         N = N / 1.1
                         score += 1
                         R_value = random.randint(0, 255)
