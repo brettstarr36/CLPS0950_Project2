@@ -3,7 +3,7 @@ import random
 pygame.init()
 score = 0
 N = 50
-print("Welcome to the Color Visual Acuity Game!")# welcoming message
+print("Welcome to the Color Visual Acuity Game!") # welcoming message
 print("Enter your name:")
 name_input = input()
 print ("enter 1 to continue") # engagement to trigger directions
@@ -17,7 +17,7 @@ if intro_1 == "1": # confirm engagement
 else:
     print("Game over", name_input)#ends game if they do not want to enter 1 to play
     print("I guess you did not want to play")
-    pygame.quit() # end script if they do not enter '1' to continue
+    pygame.quit()# end script if they do not enter '1' to continue
 if intro_2 == "1":# confirmation of part 1 of directions triggers part two of directions
     background = pygame.display.set_mode((670, 670))
     R_value = random.randint(0, 255)
@@ -92,7 +92,7 @@ if intro_2 == "1":# confirmation of part 1 of directions triggers part two of di
                     pygame.display.flip()
 
                 else: #if they click the wrong button
-                    if score < 5:
+                    if score < 5 and score > 1:
                         pygame.quit()
                         print("Your score was:", + score)
                         print("Come on", name_input)
@@ -120,7 +120,7 @@ if intro_2 == "1":# confirmation of part 1 of directions triggers part two of di
                     else:
                         pygame.quit()
                         print("Your score was:", + score)
-                        print("you suck", name_input)
+                        print("you're really bad", name_input)
 else:
     pygame.quit()
     print("Game over", name_input)  # ends game if they do not want to enter 1 to play
