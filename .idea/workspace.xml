@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79578171-dd8a-4930-afa3-973d6b829cd0" name="Changes" comment="adding instructions and giving out phrases dependng on your score. 2 hours">
+    <list default="true" id="79578171-dd8a-4930-afa3-973d6b829cd0" name="Changes" comment="timer.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trying_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/trying_game.py" afterDir="false" />
     </list>
@@ -55,6 +55,9 @@
       <module name="CLPS0950_Project2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\jonny\AppData\Local\Microsoft\WindowsApps\python3.10.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
